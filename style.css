@@ -62,3 +62,37 @@ h1 {
   box-shadow: 2px 2px 20px rgb(21, 161, 207), 2px 2px 20px rgb(201, 41, 116);
   letter-spacing: 5px;
 }
+
+
+
+
+
+
+/* ============================================== */
+@media (max-width:600px) {
+  h1 {
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+
+  #va {
+    margin-left: auto;
+  }
+
+  #logo {
+    margin-top: 50px;
+    width: 8rem;
+  }
+
+  #btn {
+    width: 80%;
+  }
+
+  #voice {
+    width: 32%;
+  }
+
+  .side {
+    margin-left: 41px;
+  }
+}
