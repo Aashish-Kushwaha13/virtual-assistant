@@ -86,9 +86,9 @@ function takeCommand(message){
     speak(date)
   }
   else{
-    let finalText = "This is what I found on internet regarding" + message.replace("shifra","") || message.replace("shipra","")
+    let finalText = "This is what I found on internet regarding" + message.replace("Ella","") || message.replace("aela","")
     speak(finalText)
-    window.open(`https://www.google.com/search?q=${message.replace("shifra","")}`,"_blank")
+    window.open(`https://www.google.com/search?q=${message.replace("Ella","")}`,"_blank")
   }
   }
   
